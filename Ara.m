@@ -25,6 +25,6 @@ while snc
     end
 end
 if hata>0
-    fprintf('En az %g tane hatalı giriş var.\n',hata)
+    fprintf('En az %g tane hatalı giriş var.\nThere are at least %g incorrect entries.\n',hata,hata)
 end
 end
