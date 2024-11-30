@@ -1,5 +1,5 @@
-Mastermind game with any digits (4-9) 
-Computer guess a number and user enters positives and negatives
-User can enter wrong answers several times :)
-Computer eventually find the number :)
-Total number of lines in code is only 114 :)
+Mastermind game with digits (4-9):
+The computer guesses a number, and the user provides positive and negative clues.
+Users can give incorrect clues multiple times :)
+But the computer always finds the number eventually!
+The entire code is just 114 lines! :)
