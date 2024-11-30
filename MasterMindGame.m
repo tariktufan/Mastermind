@@ -16,7 +16,7 @@ while arti<rkm
             fprintf('Total cannot be greater than %g\n',rkm)
         end
     end
-    if arti<4 && size(DarAralik,1)==1
+    if arti<rkm && size(DarAralik,1)==1
         hata=hata+1;
     end
     Thmn=[Thmn;ThmnY,arti,eksi]; % Kaydedilir. %Save the estimate and its score
