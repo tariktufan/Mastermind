@@ -6,8 +6,16 @@ Thmn=[]; % Tahmin edilen sayi ve + - değerlerini barındırır;
 while arti<rkm
     ThmnY=DarAralik(randi(size(DarAralik,1)),:); % Tahmini belirler
     TahminYazdir(ThmnY); % Tahmini Ekrana yazdırır
-    arti=input('+:');   % Kullanıcı artı değerini girer
-    eksi=input('-:');   % Kullanıcı eksi değerini girer
+    DD=1;
+    while DD 
+        arti=input('+:');   % Kullanıcı artı değerini girer
+        eksi=input('-:');   % Kullanıcı eksi değerini girer
+        if arti+eksi<=rkm
+            DD=0;
+        else
+            fprintf('Total cannot be greater than %g\n',rkm)
+        end
+    end
     if arti<4 && size(DarAralik,1)==1
         hata=hata+1;
     end
