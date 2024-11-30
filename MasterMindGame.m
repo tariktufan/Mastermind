@@ -1,4 +1,4 @@
-rkm=4;arti=0;
+rkm=4;arti=0; %rkm: Basamak sayısı &ENG: rkm is number of digits
 Aralik=TumFarkliRakam(rkm); %Rakamlari farkli basamakli sayilar %ENG:Numbers with unique digits
 DarAralik=Aralik; %Kullanıcı cevabına göre daraltılmış aralık %ENG:Narrowed range based on user response
 hata=0; %kullanici hatasiz girmis kabulu ile başlar %ENG: assuming the user has entered without errors.
